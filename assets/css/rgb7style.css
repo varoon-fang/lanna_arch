@@ -29,7 +29,6 @@ d8888b.  d888b  d8888b. d88888D
 
 body {
   position: relative;
-  padding-top: 40px;
   background-color: #f0f0f0;
 }
 
@@ -52,11 +51,108 @@ body {
 
 		font-family: 'thai_sans_literegular';
 	}
-
 	
+	/* @group Font Style Group */
+	h1,
+	.h1 {
+	  font-size: 36px;
+		color: #f7eac7;
+	}
+	
+	h2,
+	.h2 {
+	  font-size: 30px;
+		color: silver;
+	}
+	
+	h3,
+	.h3 {
+	  font-size: 24px;
+		color: silver;
+	}
+	
+	h4,
+	.h4 {
+	  font-size: 18px;
+		color: silver;
+	}
+	
+	h5,
+	.h5 {
+	  font-size: 14px;
+		color: silver;
+	}
+	
+	h6,
+	.h6 {
+	  font-size: 12px;
+		color: silver;
+	}
+	
+	p{
+		color: #d2d2d2;
+	}
+	
+	ul li{
+	color: silver;
+	}
+	
+	.content-sub-section a:link{
+		color: #F7DF8F;
+	}
+	
+	table{
+		color: #dcdcdc;
+	}
+	/* @end */
+	
+	/* @group Colour Background Group */
 
-/* Tweak navbar brand link to be super sleek
--------------------------------------------------- */
+.bgBodyZone{
+	background-color: #a3a093;
+}
+.bgHeaderZone{
+	background-color: #f7eac7;
+}
+
+.bgNavZone{
+	background-color: #737777;
+}
+.bgNavZoneSub{
+	background-color: #635d5d;
+}
+
+.bgContentZone{
+	background-color: #322823;
+}
+
+
+.bgH1Zone{
+	background-color: #604234;
+}
+.content-section h1{
+	color: #f7eac7;
+	font: 2em 'thai_sans_literegular';
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 0 0 0 10px;
+}
+
+
+.content-section h2{
+	color: silver;
+	font: 1em "Lucida Grande", Lucida, Verdana, sans-serif;
+	margin: 10px 0;
+}
+
+
+.content-section p{
+	color: silver;
+	font: 0.875em "Lucida Grande", Lucida, Verdana, sans-serif;
+	margin: 10px 0;
+}
+
+/* @end */
 
 /* @group RGB7 tweak Group */
 .fillRed{
@@ -93,9 +189,11 @@ body {
 	padding-right: 10px;
 }
 
-.well{
-	padding: 10px 0 0;
+/* Space things out */
+.content-section + .content-section {
+  padding-top: 40px;
 }
+
 
 
 /* @end */
@@ -107,12 +205,35 @@ body {
 
 /* @group Header Group */
 
+header#headerZone address p{
+	color: #584e3a;
+}
 
 /* @end */
 
 /* @group NavBar Group */
 
+.nav  li a{
+	color: #f7eac7;
+	font: 22px 'thai_sans_literegular';
+}
 
+.nav  li a:hover{
+	background-color: #484a4a;
+}
+
+.nav  li.active{
+	background-color: #635d5d;
+}
+
+.subMenu .nav  li a{
+	color: #f7eac7;
+	font: 18px 'thai_sans_literegular';
+}
+
+.subMenu .nav  li a:hover{
+	background-color: #484a4a;
+}
 
 
 
@@ -246,25 +367,66 @@ border-style: none;
 /* @group Landingpage Group */
 
 
+section#landingBookOnline h2{
+	text-align: center;
+}
 
 
+
+.bgH1Zone .moreLink{
+	background-color: #604234;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+.bgH1Zone .moreLink a{
+	color: #eed48e;
+	text-decoration: none;
+}
 
 
 
 /* @end */
 
+/* @group Content Group */
 
+label {
+	color: #dcdcdc;
+}
+
+.breadcrumb{
+	background-color: #604234;
+}
+/* @end */
 /* @group footer Group */
 .footerZone{
 	background-color: silver;
 	padding-bottom: 20px;
 }
 
-.footerZone a{
-	color: #1d1d1d;
+footer a{
+	color: #a2a2a2;
 }
 
+footer a:hover{
+	color: white;
+}
+
+footer h3{
+color: silver;
+	margin: 0 0 10px;
+	font-size: 1.5em;
+}
+
+footer address{
+	color: #a6a6a6;
+}
+
+p.copyright{
+	color: gray;
+}
 /* @end */
+
 
 
 
