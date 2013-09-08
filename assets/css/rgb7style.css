@@ -363,6 +363,19 @@ border-style: none;
 /* @end */
 
 /* @end */
+/* @group historypage Group */
+
+.his-imgL{
+	padding-bottom: 5px;
+	padding-right: 10px;
+}
+
+.his-imgR{
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+
+/* @end */
 
 /* @group Landingpage Group */
 
