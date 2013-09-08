@@ -377,6 +377,41 @@ border-style: none;
 
 /* @end */
 
+
+/* @group bookLibrary Group */
+
+.booklibrary{
+	margin: 0;
+	padding: 0;
+}
+.booklibrary h2{
+	font-size: 1.8ex;
+	text-align: center;
+}
+.bookLibrarySearch{
+}
+.bookLibrarySearch h3{
+	margin: 0;
+	padding-bottom: 5px;
+}
+
+
+
+.bookLibrarySearch div.form-group {
+	margin-top: 2%;
+	margin-right: 10%;
+}
+
+
+.bookLibrarySearch button.btn.btn-default {
+	margin-top: 4%;
+	width: 163px;
+}
+
+
+
+/* @end */
+
 /* @group Landingpage Group */
 
 
