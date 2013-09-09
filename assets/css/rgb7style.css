@@ -234,15 +234,9 @@ header#headerZone address p{
 .subMenu .nav  li a:hover{
 	background-color: #484a4a;
 }
-
-
-
-
-
-
-
-
-
+.subMenu .nav li.active{
+ background-color: #484a4a;
+}
 
 
 /* @end */
