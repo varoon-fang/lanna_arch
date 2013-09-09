@@ -378,6 +378,10 @@ border-style: none;
 /* @end */
 
 
+.piclist{
+	padding-bottom: 30px;
+}
+
 /* @group bookLibrary Group */
 
 .booklibrary{
