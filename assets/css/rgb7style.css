@@ -399,13 +399,14 @@ border-style: none;
 
 .bookLibrarySearch div.form-group {
 	margin-top: 2%;
-	margin-right: 10%;
+	margin-right: 20px;
+	width: 220px;
 }
 
 
 .bookLibrarySearch button.btn.btn-default {
 	margin-top: 4%;
-	width: 163px;
+	width: 120px;
 }
 
 
