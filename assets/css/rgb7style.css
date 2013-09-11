@@ -273,6 +273,16 @@ header#headerZone address p{
   background-color: #428bca;
 }
 
+.nav .caret {
+  border-top-color: #f7eac7;
+  border-bottom-color: #428bca;
+}
+
+.nav a:hover .caret {
+  border-top-color: #f7eac7;
+  border-bottom-color: #2a6496;
+}
+
 
 
 /* @end */
