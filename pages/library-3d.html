@@ -134,7 +134,7 @@
 		   		<div class="row ">
 		   			   
 		   			   <div class="col-lg-6 col-sm-6  col-xs-12 ">
-			   			   <a class="fancybox fancybox.iframe" href="library-resource/AileFlore.html">
+			   			   <a class="fancybox fancybox.iframe" id="various5"  href="library-resource/AileFlore.html">
 			   			        <img src="library-resource/images/AileFlore0001.jpg" alt="Generic placeholder image" class="img-responsive"></a>
 			   			        <h2>Heading</h2>
 			   			        <p>Donec sed odio dui. Etiam porta..</p>
@@ -298,6 +298,15 @@
 			/*
 			 *  Simple image gallery. Uses default settings
 			 */
+			 
+			 $("#various5").fancybox({
+			 		'width'				: '600',
+			 		'height'			: '480',
+			         'autoScale'     	: 'false',
+			         'transitionIn'		: 'none',
+			 		'transitionOut'		: 'none',
+			 		'type'				: 'iframe'
+			 	});
 
 			$('.fancybox').fancybox();
 
