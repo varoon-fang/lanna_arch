@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+
+    <script src="js/flipbook.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/flipbook.style.css">
+    <link rel="stylesheet" type="text/css" href="css/flipbook.skin.white.css">
+
+    <script type="text/javascript">
+
+        $(document).ready(function (){
+            $(".book").flipBook({
+                lightBox:true,
+                lightboxTransparent:true,
+                pages:[
+                    {
+                        src:"images/book1/page1.jpg",
+                        thumb:"images/book1/thumb1.jpg",
+                        title:"Cover",
+                        links:[
+                            {
+                              x:590,y:750,width:345,height:172,color:'#f00',alpha:.3,hoverColor:'#00f',hoverAlpha:.5,page:6
+                            },
+                            {
+                                x:590,y:959,width:345,height:172,color:'#fff',alpha:.7,hoverColor:'#fff',hoverAlpha:.5,url:'http://codecanyon.net'
+                            }
+                        ]
+                    },
+                    {
+                        src:"",
+                        thumb:"images/book1/thumb2.jpg",
+                        title:"Page two",
+                        htmlContent:'<div style="position: relative; height: 100%;width:100%;background: rgb(255,255,255);">' +
+                                '<iframe style="position: absolute;top: 200px;left:50px;" width="900" height="1000" src="http://www.codecanyon.net" frameborder="2" allowfullscreen></iframe>'+
+                                '</div>'
+
+                    },
+                    {
+                        src:"",
+                        thumb:"images/book1/thumb3.jpg",
+                        title:"Page three",
+                        htmlContent:'<div style="position: relative; height: 100%;width:100%;background: rgb(255,255,255);">' +
+                                '<iframe style="position: absolute;top: 200px;left:50px;box-shadow: 0 5px 20px rgba(0,0,0,.9);" width="900" height="510" src="http://www.youtube.com/embed/V3FqYsm1Lgg" frameborder="5" allowfullscreen></iframe>'+
+                                '<iframe style="position: absolute;top: 800px;left:50px;box-shadow: 0 5px 20px rgba(0,0,0,.9);" width="900" height="510" src="http://www.codecanyon.net" frameborder="5" allowfullscreen></iframe>'+
+                                '</div>'+
+                                '<div style="font-size: 60px;position: absolute;width: 100%;top:0;text-align: center;color: #333;z-index: 999;">' +
+                                '<p>Fully interactive HTML pages !</p>' +
+                                '</div>'
+                    },
+                    {
+                        src:"images/book1/page4.jpg",
+                        thumb:"images/book1/thumb4.jpg"
+                    },
+                    {
+                        src:"images/book1/page5.jpg",
+                        thumb:"images/book1/thumb5.jpg",
+                        title:"Page five"
+                    },
+                    {
+                        src:"images/book1/page6.jpg",
+                        thumb:"images/book1/thumb6.jpg",
+                        title:"Page six"
+                    },
+                    {
+                        src:"images/book1/page7.jpg",
+                        thumb:"images/book1/thumb7.jpg"
+                    },
+                    {
+                        src:"images/book1/page8.jpg",
+                        thumb:"images/book1/thumb8.jpg",
+                        title:"Page eight"
+                    },
+                    {
+                        src:"images/book1/page9.jpg",
+                        thumb:"images/book1/thumb9.jpg"
+                    },
+                    {
+                        src:"images/book1/page10.jpg",
+                        thumb:"images/book1/thumb10.jpg"
+                    },
+                    {
+                        src:"images/book1/page11.jpg",
+                        thumb:"images/book1/thumb11.jpg"
+                    },
+                    {
+                        src:"images/book1/page12.jpg",
+                        thumb:"images/book1/thumb12.jpg"
+                    },
+                    {
+                        src:"images/book1/page13.jpg",
+                        thumb:"images/book1/thumb13.jpg"
+                    },
+                    {
+                        src:"images/book1/page14.jpg",
+                        thumb:"images/book1/thumb14.jpg"
+                    },
+                    {
+                        src:"images/book1/page15.jpg",
+                        thumb:"images/book1/thumb15.jpg",
+                        title:"Page fifteen"
+                    },
+                    {
+                        src:"images/book1/page16.jpg",
+                        thumb:"images/book1/thumb16.jpg"
+                    },
+                    {
+                        src:"images/book1/page17.jpg",
+                        thumb:"images/book1/thumb17.jpg"
+                    },
+                    {
+                        src:"images/book1/page18.jpg",
+                        thumb:"images/book1/thumb18.jpg"
+                    },
+                    {
+                        src:"images/book1/page19.jpg",
+                        thumb:"images/book1/thumb19.jpg"
+                    },
+                    {
+                        src:"images/book1/page20.jpg",
+                        thumb:"images/book1/thumb20.jpg"
+                    },
+                    {
+                        src:"images/book1/page21.jpg",
+                        thumb:"images/book1/thumb21.jpg"
+                    },
+                    {
+                        src:"images/book1/page22.jpg",
+                        thumb:"images/book1/thumb22.jpg"
+                    },
+                    {
+                        src:"images/book1/page23.jpg",
+                        thumb:"images/book1/thumb23.jpg"
+                    },
+                    {
+                        src:"images/book1/page24.jpg",
+                        thumb:"images/book1/thumb24.jpg",
+                        title:"End"
+                    }
+                ]
+            });
+
+            $('.book2').flipBook({
+                css:"css/white.css",
+                lightBox:true,
+                lightboxTransparent:true,
+                pages:[
+                    {src:"images/book2/page1.jpg", thumb:"images/book2/thumb1.jpg", title:"Cover"},
+                    {src:"images/book2/page2.jpg", thumb:"images/book2/thumb2.jpg", title:"Page two"},
+                    {src:"images/book2/page3.jpg", thumb:"images/book2/thumb3.jpg", title:"Page three"},
+                    {src:"images/book2/page4.jpg", thumb:"images/book2/thumb4.jpg", title:""},
+                    {src:"images/book2/page5.jpg", thumb:"images/book2/thumb5.jpg", title:"Page five"},
+                    {src:"images/book2/page6.jpg", thumb:"images/book2/thumb6.jpg", title:"Page six"},
+                    {src:"images/book2/page7.jpg", thumb:"images/book2/thumb7.jpg", title:""},
+                    {src:"images/book2/page8.jpg", thumb:"images/book2/thumb8.jpg", title:"End"}
+                ]
+            });
+
+            $('.book3').flipBook({
+                css:"css/white.css",
+                lightBox:true,
+                lightboxTransparent:true,
+                pages:[
+                    {src:"images/book3/page1.jpg", thumb:"images/book3/thumb1.jpg", title:"Cover"},
+                    {src:"images/book3/page2.jpg", thumb:"images/book3/thumb2.jpg", title:"Page two"},
+                    {src:"images/book3/page3.jpg", thumb:"images/book3/thumb3.jpg", title:"Page three"},
+                    {src:"images/book3/page4.jpg", thumb:"images/book3/thumb4.jpg", title:""}
+                ]
+            });
+
+
+        })
+    </script>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        /*background: url('images/patterns/retina_wood2.png');*/
+    }
+    .books{
+        margin: 50px;
+    }
+    .books img{
+        box-shadow: 0 3px 10px rgba(0,0,0,.5);
+        height: 200px;
+    }
+    .book, .book2, .book3{
+        margin: 10px;
+    }
+
+</style>
+
+</head>
+
+<body>
+
+
+<div class="books">
+    <div >
+        <img class="book" src="images/book1/thumb1.jpg"/>
+        <img class="book2" src="images/book2/thumb1.jpg"/>
+        <img class="book" src="images/book1/thumb1.jpg"/>
+        <img class="book2" src="images/book2/thumb1.jpg"/>
+        <img class="book" src="images/book1/thumb1.jpg"/>
+        <img class="book" src="images/book1/thumb1.jpg"/>
+        <img class="book3" src="images/book3/thumb1.jpg"/>
+        <img class="book" src="images/book1/thumb1.jpg"/>
+        <img class="book3" src="images/book3/thumb1.jpg"/>
+        <img class="book2" src="images/book2/thumb1.jpg"/>
+        <img class="book" src="images/book1/thumb1.jpg"/>
+    </div>
+
+</div>
+
+
+</body>
+
+</html>

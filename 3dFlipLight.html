@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+
+    <script src="js/flipbook.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/flipbook.style.css">
+    <link rel="stylesheet" type="text/css" href="css/flipbook.skin.white.css">
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            var book1 = $("#container").flipBook({
+                pages:[
+                    {src:"images/book2/page1.jpg", thumb:"images/book2/thumb1.jpg", title:"Cover"},
+                    {src:"images/book2/page2.jpg", thumb:"images/book2/thumb2.jpg", title:"Page two"},
+                    {src:"images/book2/page3.jpg", thumb:"images/book2/thumb3.jpg", title:"Page three"},
+                    {src:"images/book2/page4.jpg", thumb:"images/book2/thumb4.jpg", title:""},
+                    {src:"images/book2/page5.jpg", thumb:"images/book2/thumb5.jpg", title:"Page five"},
+                    {src:"images/book2/page6.jpg", thumb:"images/book2/thumb6.jpg", title:"Page six"},
+                    {src:"images/book2/page7.jpg", thumb:"images/book2/thumb7.jpg", title:""},
+                    {src:"images/book2/page8.jpg", thumb:"images/book2/thumb8.jpg", title:"End"}
+                ],
+
+                //menu
+                btnNext:true,
+                btnPrev:true,
+                btnZoomIn:true,
+                btnZoomOut:true,
+                btnToc:true,
+                btnThumbs:true,
+                btnShare:true,
+                btnExpand:true,
+
+                startPage:0,
+
+                pageWidth:1000,
+                pageHeight:1414,
+                thumbnailWidth:100,
+                thumbnailHeight:141,
+
+                flipType:'3d',
+
+                time1:500,
+                time2:600
+
+            });
+
+        })
+    </script>
+
+</head>
+
+<body>
+<div id="container" style=""></div>
+<!--<img id="container" src="images/book1/thumb1.jpg" style=""/>-->
+<!--<div id="container" style="position: absolute;width: 50%;height: 100%;"></div>-->
+<!--<div id="container2" style="position: absolute;width: 50%; height: 100%; left:50%"></div>-->
+
+</body>
+
+</html>
