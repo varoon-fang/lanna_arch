@@ -53,10 +53,20 @@ body {
 	}
 	
 	/* @group Font Style Group */
-	h1,
-	.h1 {
-	  font-size: 36px;
+	
+
+	
+	a:visited {
+	  color: #f7eac7;
+	
+	}
+	
+
+	
+	h1 {
+	  font-size: 42px;
 		color: #f7eac7;
+		 font-family: 'thai_sans_literegular';
 	}
 	
 	h1 a:visited{
@@ -564,16 +574,7 @@ section#landingBookOnline h2{
 /* @group Content Group */
 
 
-section#subContent .content-section h1 {
-	color: #f6f6f6;
-	font: 24px "Lucida Grande", Lucida, Verdana, sans-serif;
-	margin: 10px 0;
-}
-section#subContent .content-section h2{
-	color: #f6f6f6;
-	font: 24px "Lucida Grande", Lucida, Verdana, sans-serif;
-	margin: 10px 0;
-}
+
 
 section#subContent ol{
 	color: #e9e9e9;
